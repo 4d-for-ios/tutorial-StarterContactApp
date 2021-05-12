@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="12">
+	<com.4d>
+		<deployment>
+			<options/>
+		</deployment>
+		<web>
+			<standalone_server>
+				<configuration allow_ssl="false" port_number="8099" publish_at_startup="true">
+					<hosts>
+						<host home_page="index.html" id="0" name="default"/>
+					</hosts>
+				</configuration>
+				<webservices>
+					<server name="A_WebService"/>
+				</webservices>
+				<rest launch_at_startup="true"/>
+			</standalone_server>
+		</web>
+		<server>
+			<network>
+				<options publication_name="Contact"/>
+			</network>
+		</server>
+		<sql>
+			<publication port_number="19812"/>
+		</sql>
+		<general startup_environnement="0"/>
+	</com.4d>
+</preferences>
